@@ -1,0 +1,252 @@
+:root {
+  --background-color: #171717 !important;
+  --text-color: #cfcfcf;
+}
+
+/* --background-color: #282c34;
+--text-color: #abb2bf; */
+
+h1,
+h2,
+h3,
+h4,
+time,
+blockquote {
+  color: var(--text-color) !important;
+}
+
+
+
+.container {
+  background-color: var(--background-color) !important;
+}
+.DialogBox.trPopupDialog {
+  background-color: var(--background-color) !important;
+}
+.AdContainer,
+.OptionsWidget,
+.mainMenu,
+.practice,
+.sidebarBlocks iframe,
+.statsView,
+.friends{
+  background-color: var(--background-color) !important;
+}
+#school-edition-promo{
+  background-color: var(--background-color) !important;
+}
+.AdContainer.AdContainer-728x90{
+  background-color: var(--background-color) !important;
+  border: 1px solid #484848 !important;
+}
+.popupContent{ 
+  color: var(--text-color) !important;
+  background-color: var(--background-color) !important;
+}
+.mainMenu .enterRace h3, .mainMenu .practice h3, .mainMenu .friends h3{
+  color: var(--text-color) !important;
+}
+.mainMenu .enterRace{
+  background-image: url(https://i.imgur.com/h0wujCM.png) !important;
+  border-color: #484848 !important;
+  background-color: var(--background-color) !important;
+}
+#school-edition-promo{
+  background-image: url(https://i.imgur.com/Lwnv3SZ.png) !important;
+  border: 1px solid #1d1d1d !important;
+}
+.themeHeader {
+  background: #001523 !important;
+}
+#tstats .datarow{
+  color: var(--text-color) !important;
+}
+table.themeHeader table.mainUserInfoBox>tbody>tr.datarow {
+  background-color: #00111d !important;
+}
+table.themeHeader table.mainUserInfoBox>tbody>tr:first-child {
+  background-color: #003144 !important;
+}
+.sidebarBlock__content {
+  border: 1px solid #484848 !important; 
+  background:#0a0a0a !important;
+  background-color: #0a0a0a !important;
+}
+.sidebarBlock\__content {
+  border: 1px solid #484848 !important; 
+  background:#0a0a0a !important;
+}
+.sidebarBlock{
+  background-color: #0a0a0a !important;
+}
+.StatsTable table tr td {
+  background-color: #000 !important;
+  border: 1px solid #484848 !important;
+  color: #707071 !important;
+}
+.StatsTable table tr td:nth-child(1) {
+  background-color: #00111d !important;
+}
+.StatsTable table tr.headerRow td {
+  background-color: #00111d !important;
+  color: #8a8a8a !important;
+  border: none;
+  border-right: 1px solid #3a3a3a !important;
+  border-bottom: 2px solid #404040 !important;
+}
+.StatsTable .flag {
+  border: 2px solid #00148c !important;
+}
+.prompt-button.bkgnd-green{
+  background-color: #003067 !important;
+}
+.OptionsWidget .OptionsWidgetBody li:nth-child(2) .gwt-Anchor.off {
+background-color: #292929 !important;
+border-right: 1px solid #6f6f6f !important;
+}
+.OptionsWidget .OptionsWidgetBody li:nth-child(2) .gwt-Anchor{
+  border: 1px solid #6f6f6f !important;
+}
+
+
+a,
+.markup--anchor,
+.markup--p-anchor {
+  color: #008cff !important;
+}
+
+.OptionsWidget .OptionsWidgetBody li:nth-child(2) .gwt-Anchor.off:before{
+  background-color: #1b1b1b !important;
+  border-right: 1px solid #777777 !important;
+}
+.prompt-button.bkgnd-purple{
+  background-color: #252525 !important;
+}
+.footer-cont{
+  background-color: #000f19 !important;
+}
+.change-theme-button{
+  background-color: #131313 !important;
+}
+.change-theme-button:hover{
+  background-color: #5f5f5f !important;
+}
+.mainMenu .practice, .mainMenu .friends, .sidebarBlocks, .OptionsWidget, .statsView {
+  border: 1px solid #484848 !important;
+}
+.mainMenu .practice{
+  background-image: url(https://i.imgur.com/o4erxOr.png) !important;
+}
+.mainMenu .friends{
+  background-image: url(https://i.imgur.com/7WkivyA.png) !important;
+}
+.sidebarBlocks-controls .sidebarBlocks-prev, .sidebarBlocks-controls .sidebarBlocks-next{
+  background: #34495e !important;
+}
+.sidebarBlocks{
+display: none !important;
+}
+.statsView .gwt-TabPanel .gwt-TabBar.StatsViewTabs tbody .gwt-TabBarItem-wrapper .gwt-TabBarItem.gwt-TabBarItem-selected>.gwt-Label{
+  box-shadow: 0px 1px 3px 1px #484545 !important;
+    text-shadow: 2px 2px 3px #000 !important;
+}
+.statsView .gwt-TabPanel .gwt-TabBar.StatsViewTabs tbody .gwt-TabBarItem-wrapper .gwt-TabBarItem>.gwt-Label.Latest_High_Scores {
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAAPCAYAAAACsSQRAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyxpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMDY3IDc5LjE1Nzc0NywgMjAxNS8wMy8zMC0yMzo0MDo0MiAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIEVsZW1lbnRzIDE0LjAgKFdpbmRvd3MpIiB4bXBNTTpJbnN0YW5jZUlEPSJ4bXAuaWlkOkRBNDhDNzQzRjgzNDExRTc4NkU0RDJDNzA4QTIwQjAxIiB4bXBNTTpEb2N1bWVudElEPSJ4bXAuZGlkOkRBNDhDNzQ0RjgzNDExRTc4NkU0RDJDNzA4QTIwQjAxIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6REE0OEM3NDFGODM0MTFFNzg2RTREMkM3MDhBMjBCMDEiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6REE0OEM3NDJGODM0MTFFNzg2RTREMkM3MDhBMjBCMDEiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz7b4EguAAAAcElEQVR42mL4//9/+X/KQDkjiGRgYJgFxGcZSAfGQJzGAuWchRpEKkgDEUwMVACjhmACFuSoIjOKGWDpZHCEySwKzZjFCPWNIBTDAIh9Bk3xeyA2wSL2ngFkCBYciiOzhWJTz4gnXF2wiO3BphAgwAD3lJP4+3Td9AAAAABJRU5ErkJggg==) #825600 no-repeat left 0.5em center !important;
+}
+.statsView .gwt-TabPanel .gwt-TabBar.StatsViewTabs tbody .gwt-TabBarItem-wrapper .gwt-TabBarItem>.gwt-Label {
+  color: #8a8a8a !important;
+}
+.statsView .gwt-TabPanel .gwt-TabBar.StatsViewTabs tbody .gwt-TabBarItem-wrapper .gwt-TabBarItem>.gwt-Label.My_Scores {
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAOCAYAAAAbvf3sAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyxpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMDY3IDc5LjE1Nzc0NywgMjAxNS8wMy8zMC0yMzo0MDo0MiAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIEVsZW1lbnRzIDE0LjAgKFdpbmRvd3MpIiB4bXBNTTpJbnN0YW5jZUlEPSJ4bXAuaWlkOkU3NjZDN0IzRjgzNDExRTc5ODY1OTAzNTc5REE0NTE5IiB4bXBNTTpEb2N1bWVudElEPSJ4bXAuZGlkOkU3NjZDN0I0RjgzNDExRTc5ODY1OTAzNTc5REE0NTE5Ij4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6RTc2NkM3QjFGODM0MTFFNzk4NjU5MDM1NzlEQTQ1MTkiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6RTc2NkM3QjJGODM0MTFFNzk4NjU5MDM1NzlEQTQ1MTkiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz5850sjAAAAlUlEQVR42pSSCw2AMAwFCw6wMAuzgIVpAQkgAS3DAhYmASSU12X8aQaXXAJL32gbiJnpZAU7OCeHdLbX0C3g+YnXApZ17FZX0kFFOmZ/uvWvYd6+ILQvt8vZsr0UcRCiDjZwgmNqTwywhhb2MYyA4+84bZUavrxsII+VGfhHIG4p/KgPMkOd/pscUuOKU0cmeztYBRgA9IZEz89/gZcAAAAASUVORK5CYII=) #003d50 no-repeat left 0.5em center !important;
+}
+.statsView .gwt-TabPanel .gwt-TabBar.StatsViewTabs tbody .gwt-TabBarItem-wrapper .gwt-TabBarItem>.gwt-Label.Hall_of_Fame {
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyxpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMDY3IDc5LjE1Nzc0NywgMjAxNS8wMy8zMC0yMzo0MDo0MiAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIEVsZW1lbnRzIDE0LjAgKFdpbmRvd3MpIiB4bXBNTTpJbnN0YW5jZUlEPSJ4bXAuaWlkOkY0RDE4ODkzRjgzNDExRTdBQkM0RkEzRTY3N0ExMDI1IiB4bXBNTTpEb2N1bWVudElEPSJ4bXAuZGlkOkY0RDE4ODk0RjgzNDExRTdBQkM0RkEzRTY3N0ExMDI1Ij4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6RjREMTg4OTFGODM0MTFFN0FCQzRGQTNFNjc3QTEwMjUiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6RjREMTg4OTJGODM0MTFFN0FCQzRGQTNFNjc3QTEwMjUiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz6p0QNcAAAAmElEQVR42mL4//8/Ax4sCMTvgPguECshyzEQ0Bj6HwFmIssxMeAHoThl8NiW9h8VhCLLM4LdiwlcgHg3mtgeKP0eiCtAGjuADEEkwXtAjCyGDZxl+I8Jdv8nDM4QChxcYDW5GuHR8Z5EfWdhGleDPUwcAAXeWRaobWlIgveI0PgeV+SD0mU5lhAGpVljfAkAHQiihwVAgAEAh0MIbyl1UJ0AAAAASUVORK5CYII=) #484848 no-repeat left 0.5em center !important;
+}
+.statsView .gwt-TabPanel .gwt-TabBar.StatsViewTabs tbody .gwt-TabBarItem-wrapper .gwt-TabBarItem>.gwt-Label.Competitions {
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAAQCAYAAADwMZRfAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyxpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMDY3IDc5LjE1Nzc0NywgMjAxNS8wMy8zMC0yMzo0MDo0MiAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIEVsZW1lbnRzIDE0LjAgKFdpbmRvd3MpIiB4bXBNTTpJbnN0YW5jZUlEPSJ4bXAuaWlkOjAwRjE3OUYzRjgzNTExRTdCNjIyRkE0NUVCN0JERTVFIiB4bXBNTTpEb2N1bWVudElEPSJ4bXAuZGlkOjAwRjE3OUY0RjgzNTExRTdCNjIyRkE0NUVCN0JERTVFIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6MDBGMTc5RjFGODM1MTFFN0I2MjJGQTQ1RUI3QkRFNUUiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6MDBGMTc5RjJGODM1MTFFN0I2MjJGQTQ1RUI3QkRFNUUiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz4lmndgAAAA4UlEQVR42pSSARGDMAxFQ28GaqEWsIAFLDAJIAELs4AFkDALIIFKyFJIt1DCgHf3e5BCmvwUEBFIjvTGlRfHNJWkmVXGeNzscUulJHC4J8TgASsOtuSkklSRLGlgpdhl5VPq5IROOTW0Oybvy/8ZLQXlCvKcfSJ1oNMolTQgDP1XRaRXYrnh/vd96njNF3NgVqPEh6MkwZMwhVpMIfoziCon3i84bnmi4fl5dg/mZCKRWt4hmaTF64wyiUku2FWcHIBJNu6gJvE3k/y+F70VbOQVWulJtri7LfHMm4n15SPAAPtqzBP9Ws7jAAAAAElFTkSuQmCC) #7b3400 no-repeat left 0.5em center !important;
+}
+.highScoresFooter .lnkRefresh{
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyxpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMDY3IDc5LjE1Nzc0NywgMjAxNS8wMy8zMC0yMzo0MDo0MiAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIEVsZW1lbnRzIDE0LjAgKFdpbmRvd3MpIiB4bXBNTTpJbnN0YW5jZUlEPSJ4bXAuaWlkOkQ2RTI1QkYzRjc4NzExRTdCMTk5RkRFNERENkVGMTRDIiB4bXBNTTpEb2N1bWVudElEPSJ4bXAuZGlkOkQ2RTI1QkY0Rjc4NzExRTdCMTk5RkRFNERENkVGMTRDIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6RDZFMjVCRjFGNzg3MTFFN0IxOTlGREU0REQ2RUYxNEMiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6RDZFMjVCRjJGNzg3MTFFN0IxOTlGREU0REQ2RUYxNEMiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz5unpUgAAAA60lEQVR42qRTgRGCMAwMngvUEXAEVmCFruAKOIKOUEfAEWAEHAFGgBFqCo8Xa4re+Xd/aa/5JG0T8t5TxJLpmL1fMDI7ZsU0wq8Ieyk0EG4hBLNIEtZOBmgUQQ/HFNyOFjhmifXEPDMPzKOwd9KAu8gSC+Vd1rdRK7Ai3pX5UPIUzForYA/bwt5Ix5QI3GahvH8QKjBgnHHa0OWwA4mGif+bEqyEn6XE/14SYhP1Ra4FaDay18Kvnt8v1WGiHwx6oIuumMcBRv877FoVQdggU/VF2KOa17WyeSTfvyzsT5iNHGcDZuFjHp4CDABVf1Xa2XbHQAAAAABJRU5ErkJggg==) #00485f no-repeat right 2em center !important;
+}
+.mainViewport table .chrome_m, .chrome_m{
+  background-color: var(--background-color) !important;
+}
+.mainViewport table.textInfoView>tbody>tr:nth-child(3) td {
+  background-color: var(--background-color) !important;
+  border: 1px solid #484848 !important;
+}
+
+.mainViewport table.inputPanel {
+  background-color: var(--background-color) !important;
+  border: 1px solid #484848 !important;
+}
+.mainViewport {
+  color: var(--text-color) !important;
+  background-color: var(--background-color) !important;
+}
+.mainViewport a {
+  color: var(--text-color) !important;
+}
+.mainViewport table.TypingLogReplayPlayer>tbody>tr:nth-child(1)>td, .mainViewport table.TypingLogReplayPlayer>tbody>tr:nth-child(2)>td, .mainViewport table.TypingLogReplayPlayer>tbody>tr:nth-child(3)>td, .mainViewport table.TypingLogReplayPlayer>tbody>tr:nth-child(4)>td, .mainViewport table.TypingLogReplayPlayer>tbody>tr:nth-child(5)>td, .mainViewport table.TypingLogReplayPlayer>tbody>tr:nth-child(6)>td, .mainViewport table.TypingLogReplayPlayer>tbody>tr:nth-child(7)>td, .mainViewport table.TypingLogReplayPlayer>tbody>tr:nth-child(9)>td {
+  color: var(--text-color) !important;
+  background-color: var(--background-color) !important;
+  border-left: 1px solid #484848 !important;
+  border-right: 1px solid #484848 !important;
+}
+.mainViewport{caret-color:#60e600 !important;}
+.mainViewport table.inputPanel .txtInput {
+  background-color: var(--background-color) !important;
+  border: 1px solid #484848 !important;
+  color: var(--text-color) !important;
+}
+.mainViewport table.inputPanel .txtInput.txtInput-error{
+  color: var(--text-color) !important;
+  background-color: #d08383 !important;
+  border: 1px solid #484848 !important;
+}
+.horizontalCountdownPopup .trafficLight {
+  background-color: var(--background-color) !important;
+}
+.mainViewport table.navControls tr td:nth-child(1) a.gwt-Anchor {
+  background-color:#a97000 !important;
+}
+.mainViewport table.textInfoView>tbody>tr:nth-child(1) td {
+  background-color: #003a61 !important;
+  border-bottom: 1 px solid #005894 !important;
+}
+.mainViewport table.textInfoView>tbody>tr:nth-child(2)>td {
+  background-color: #003a61 !important;
+}
+.mainViewport table.textInfoView>tbody>tr>td .textInfoTitle, .mainViewport table.textInfoView>tbody>tr>td .textInfoAuthor, .mainViewport table.textInfoView>tbody>tr>td .textInfoContributor {
+border: 1px solid #005894 !important;
+}
+.mainViewport table.textInfoView>tbody>tr .tblOwnStats {
+  border-left: 1px solid #005894 !important;
+  border-top: 1px solid #005894 !important;
+}
+.mainViewport table.textInfoView>tbody>tr .tblOwnStats .ScoreMenuButton>tbody>tr {
+  background-color: rgba(255, 151, 31, .8) !important;
+}
+.mainViewport div.TypingDisplaySection {
+  background-color: #212121 !important;
+  border: 1px solid #484848 !important;
+}
+.mainViewport table.TypingLogReplayPlayer>tbody>tr:nth-child(3) .lblStatusIndicator {
+  color: #616161 !important;
+}
+.mainViewport table.TypingLogReplayPlayer>tbody>tr:nth-child(4) table tbody tr {
+  background-color: #383838 !important;
+}
+.mainViewport table.TypingLogReplayPlayer>tbody>tr:nth-child(8)>td {
+  border: 1px solid #484848 !important;
+  background-color: var(--background-color) !important;
+}
+.mainViewport table.TypingLogReplayPlayer>tbody>tr:nth-child(9)>td, .mainViewport table.TypingLogReplayPlayer>tbody>tr:nth-child(7)>td {
+  border: 1px solid #484848 !important;
+}
+.IncrementSpeedChart {
+  background-color: var(--background-color) !important;
+}
+/*rect{
+  fill: rgb(23, 23, 23) !important;
+}*/

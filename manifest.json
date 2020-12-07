@@ -1,0 +1,26 @@
+{
+  "short_name": "Typeracer Dark",
+  "name": "Typeracer Dark Mode",
+  "description": "Pre-release build of the dark mode theme for TypeRacer.com",
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "icons": {
+    "16": "icons/logo-typeracer64.png",
+    "48": "icons/logo-typeracer64.png",
+    "128": "icons/logo-typeracer128.png"
+  },
+  "permissions": [
+    "activeTab",
+    "tabs",
+    "https://www.typeracer.com/*",
+    "https://typeracer.com/*",
+    "https://play.typeracer.com/*"
+  ],
+  "manifest_version": 2,
+  "browser_action": {
+    "default_title": "Typeracer Dark"
+  },
+  "version": "0.2"
+}
